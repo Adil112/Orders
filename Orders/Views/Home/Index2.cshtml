@@ -1,0 +1,183 @@
+﻿@model Orders.Models.Order
+
+@{
+    ViewBag.Title = "Index2";
+}
+
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomId)
+        </dt>
+
+        <dd>
+            @Html.Display(Model.CustomId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SourceOrderId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SourceOrderId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TrackingUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TrackingUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TrackingNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TrackingNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RenderStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RenderStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CommentsCount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CommentsCount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DownloadLink)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DownloadLink)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PreviewImageUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PreviewImageUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiscountPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiscountPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DeliveryPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DeliveryPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiscountId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiscountId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiscountTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiscountTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateCreated)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateCreated)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateModified)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateModified)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DatePaid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DatePaid)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,19 @@
+﻿@model List<string>
+@{
+
+}
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        @foreach (var t in Model)
+        {
+            <dt>
+                @Html.DisplayName(t)
+            </dt>
+
+            <dd>
+                @Html.ActionLink("Информация", "Index2", new { id = t })
+            </dd>
+        }
+    </dl>
+</div>
